@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FoodBoutique</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAM7SURBVHgBrVRBTxNREJ55r8QmclhvgCb26I2KRTm2cvFme9OT5aRBCOUmgdJWbDhabSXcKEdPhT9Ay43YYuovsF5IOLlNiKl29z1n3u5iiz148CWb3Z198833zTdvAf7zwlHBTD5q9UMiDSCnUauu0rq9s/m5yt8Wi7NRvu+sN9v/BLi0dS+JCHv0yRqMa4Q8go7QQ9oL6I6rdSEoFCw5BFaM5RBwl8B6CmAt5Iw/dWT/owC4Q5UJCIkdVrWGQyFEFBHT9+en4NPR2XGAIYKH5eJMGjWzwHbfCd39sNEqOWMXK1LrOiDu+zQ75Y3mQiXbyjsAKSrS5pylrVh8CDCzHY0QUI4TfjkytZs/6Ri2XoGOS4kenra94rGaVKrmIC7Qq02t2OO+X0qeTdxiOU9A6IZAdf5g/uZzqv6K2QrnekKqHzYInKQ9j2YfTnVBQ5fkJmnPHIFZpGDCFeK8eXR2YhhqgGe+JDIEa0yaX8ndQ0deZHoA1vuN0zRLpIQcol7xHY0G5lH8sYkxVTcU+s5yNahVFMIiB5Pgb/CXTUakyP2MiZu9mnvZyGzPRZRy61rriHScGwKuhS2Ppd6vZE8PXOi3KblEG1J0TwAq7pNFYPWgSN+VCQNGZEprJx2l1CHHexC2BFxZIZA1Sq4pITqcpLXw2wHHVKBAT6uBaaTsqzfoaP9x+WfP9tqHt/nugEgZt8hFM0oAcZ69crYVR6E6NJ/w8k0swxNASbbqS5sImNMThp4tSvm2rU2zTd+8I4W4ShedCrFnJDqyYIoSWzaFrrfcR5bObMmkacZgLOHL4R5Yi69n0vxaXm9WwZsxYwgnDXTFGgRjFVojGYPvfLepb65T4kSJmHuRj0YCUK5KtOxg+AVq/ma7AszwDx4IpWTjEpCpBjLHpKwHoNS/bxzjREqoMxOSvcBtGYy5ZFag4vLnQAe8PZeYooKYJKbJWGKyS4BhGvQ5bf4wOMEOV7LNKsvk/jIYmVOobLZKAc5fv6/l4iw7m+NBHfrAshAaAlTSPx02KFwtb1K/B9boHyxNv6vcOCiVIcbTw8D6C8k4EO54qZRv2FdzRwIOgefjVg965jSFIWyPAhlcvwEVd59MEhIi+AAAAABJRU5ErkJggg==" />
+    
+    <script type="module" crossorigin src="/js_95_WAYLIIKE/commonHelpers.js"></script>
+    <link rel="modulepreload" crossorigin href="/js_95_WAYLIIKE/assets/vendor-2dcf4ad5.js">
+    <link rel="modulepreload" crossorigin href="/js_95_WAYLIIKE/assets/sprite-7838f1c3.js">
+    <link rel="stylesheet" href="/js_95_WAYLIIKE/assets/sprite-15a6c9ef.css">
+    <link rel="stylesheet" href="/js_95_WAYLIIKE/assets/vendor-e5212ee8.css">
+  </head>
+  <body>
+    <header><header class="container">
+  <div class="header-logo-main">
+    <div class="header-logo-duo">
+      <a href="./index.html" class="header-logo-div">
+        <svg class="header-logo">
+          <use href="/js_95_WAYLIIKE/assets/sprite-fe336fca.svg#icon-logo"></use>
+        </svg>
+      </a>
+      <a href="./index.html" class="header-name-div">
+        <svg class="header-name">
+          <use href="/js_95_WAYLIIKE/assets/sprite-fe336fca.svg#icon-Food-Boutique"></use>
+        </svg>
+      </a>
+    </div>
+    <div class="header-button-duo">
+      <div class="header-button-div">
+        <a href="./index.html">
+          <button type="button" class="header-button">Home</button>
+        </a>
+      </div>
+      <div class="header-card">
+        <div>
+          <a href="./basket.html" class="header-shop-div">
+            <svg class="header-shop">
+              <use href="/js_95_WAYLIIKE/assets/sprite-fe336fca.svg#icon-shop"></use>
+            </svg>
+          </a>
+        </div>
+        <div>
+          <p class="header-text tablet-text">
+            Cart (<span id="cart-counter">0</span>)
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+</header>
+    <main>
+      <!-- EMPTY BASKET by Анастасія Халупська -->
+      <section class="emptyBasket_section">
+  <div class="container">
+    <div class="emptyBasket_card">
+      <div class="emptyBasket_icon">
+        <div class="emptyBasket_div">
+          <svg class="emptyBasket_svg">
+            <use href="/js_95_WAYLIIKE/assets/sprite-fe336fca.svg#icon-shop"></use>
+          </svg>
+        </div>
+      </div>
+
+      <div>
+        <p class="emptyBasket_cart">Cart (0)</p>
+      </div>
+    </div>
+
+    <picture class="emptyBasket_box">
+      <!-- 1440 -->
+      <source
+        media="(min-width: 1440px)"
+        srcset="/js_95_WAYLIIKE/assets/basket-desktop-e5496272.png 1x, /js_95_WAYLIIKE/assets/basket-desktop@2x-9e5ee823.png 2x"
+        type="image/png"
+      />
+      <!-- 768 -->
+      <source
+        media="(min-width: 768px)"
+        srcset="/js_95_WAYLIIKE/assets/basket-desktop-e5496272.png 1x, /js_95_WAYLIIKE/assets/basket-desktop@2x-9e5ee823.png 2x"
+        type="image/png"
+      />
+      <!-- Mobile -->
+      <source
+        media="(max-width: 767px)"
+        srcset="/js_95_WAYLIIKE/assets/basket-mobile-4baabbab.png 1x, /js_95_WAYLIIKE/assets/basket-mobile@2x-0323a090.png 2x"
+        type="image/png"
+      />
+      <img
+        class="emptyBasket_img"
+        src="/js_95_WAYLIIKE/assets/basket-mobile-4baabbab.png"
+        alt="basket"
+        width="132"
+        height="114"
+        loading="lazy"
+      />
+    </picture>
+
+    <h3 class="emptyBasket_header">
+      <span class="emptyBasket_black">Your basket is</span>
+      empty...
+    </h3>
+
+    <p class="emptyBasket_message">
+      Go to the main page to select your favorite products and add them to the
+      cart.
+    </p>
+  </div>
+</section>
+
+      <!-- ACTIVE BASKET by Fedir Svyrydov-->
+      <div class="container active-basket-container">
+  <section class="list-section">
+    <div class="basket-header-container">
+      <span class="cart-emblem">
+        <svg class="product-svg" width="18" height="18">
+          <use href="/js_95_WAYLIIKE/assets/sprite-fe336fca.svg#icon-shop"></use>
+        </svg>
+      </span>
+      <h1 class="cart-header">CART (0)</h1>
+    </div>
+
+    <div class="delete-button-container">
+      <button class="delete-button">
+        <span>Delete all</span
+        ><svg class="delete-list-x" width="24" height="24">
+          <use href="/js_95_WAYLIIKE/assets/sprite-fe336fca.svg#icon-close"></use>
+        </svg>
+      </button>
+    </div>
+
+    <!-- !list -->
+    <ul class="list-in-basket"></ul>
+    <!-- !  -->
+  </section>
+
+  <section class="order-section">
+    <h1 class="order-title">YOUR ORDER</h1>
+    <div class="total-price-container">
+      <p class="total-price-text">Total</p>
+      <p class="total-price"><span class="sum">Sum:</span>$0,00</p>
+    </div>
+
+    <form class="form-container">
+      <input
+        class="form-input"
+        type="email"
+        name="email"
+        placeholder="Mail:"
+        pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+        title="Enter a valid email address"
+      />
+      <label>
+        <button type="submit" class="form-button" data-order-open>
+          Checkout
+        </button>
+      </label>
+    </form>
+  </section>
+</div>
+
+    </main>
+    <footer class="footer">
+  <div class="container">
+    <div class="footer-box">
+      <div class="footer-left-box">
+        <div class="with-logo-container">
+          <ul class="list logo-list">
+            <li>
+              <a class="cabbage-item" href="./index.html">
+                <svg class="footer-cabbage-icon" width="20" height="20">
+                  <use href="/js_95_WAYLIIKE/assets/sprite-fe336fca.svg#icon-favicon"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="logo-item">
+              <a href="./index.html" class="link logo-link footer-logo"
+                >Food Boutique</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="social-media-container">
+          <ul class="list social-media-list">
+            <li class="icon-box">
+              <a
+                class="footer-social-links"
+                href="https://www.facebook.com/goITclub/"
+                target="_blank"
+                ><svg class="social-icon" width="28" height="28">
+                  <use href="/js_95_WAYLIIKE/assets/sprite-fe336fca.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="icon-box">
+              <a
+                href="https://www.instagram.com/goitclub/"
+                class="footer-social-links"
+                target="_blank"
+                ><svg class="social-icon" width="28" height="28">
+                  <use href="/js_95_WAYLIIKE/assets/sprite-fe336fca.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="icon-box">
+              <a
+                href="https://www.youtube.com/c/GoIT"
+                class="footer-social-links"
+                target="_blank"
+              >
+                <svg class="social-icon" width="28" height="28">
+                  <use href="/js_95_WAYLIIKE/assets/sprite-fe336fca.svg#icon-youtube"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="text-subscribe-box">
+        <div class="footer-text-box">
+          <h3 class="footer-text">
+            Discover the Variety of Flavors and Quality
+          </h3>
+          <p class="footer-paragraph">
+            An online store where you will find fresh, natural and delicious
+            products for a healthy life and unforgettable gastronomic
+            adventures.
+          </p>
+        </div>
+        <div class="subscribe-box">
+          <p class="subscribe-paragraph">
+            Subscribe and learn about new products!
+          </p>
+          <form class="subscribe-form">
+            <input
+              type="email"
+              name="userAddress"
+              class="subscribe-input"
+              placeholder="Email"
+              pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+            />
+            <button type="submit" class="button send-btn">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="policy-box">
+      <ul class="policy-list">
+        <li class="policy-item">
+          <p class="policy-paragraph">Food Boutique. All rights reserved.</p>
+        </li>
+        <li class="policy-item">
+          <p class="policy-paragraph">Privacy Policy / Terms of Service</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+    <div class="modal-error">
+  <div class="modal-error-subscriprion">
+    <button class="modal-error-subscriprion-button modal-error-close">
+      <svg class="modal-error-subscriprion-svg-item" width="22" heigh="22">
+        <use href="/js_95_WAYLIIKE/assets/sprite-fe336fca.svg#icon-close"></use>
+      </svg>
+    </button>
+    <div class="modal-error-subscriprion-main">
+      <h1 class="modal-error-subscriprion-title">
+        This
+        <span class="modal-error-subscriprion-title-span">email address</span>
+        has already been entered
+      </h1>
+      <p class="modal-error-subscriprion-item">
+        You have already subscribed to our new products. Watch for offers at the
+        mailing address.
+      </p>
+    </div>
+  </div>
+</div>
+
+    <div class="backdrop">
+  <div class="modal-window js-box">
+    <button class="button-modal-icon" type="button">
+      <svg class="modal-close">
+        <use href="/js_95_WAYLIIKE/assets/sprite-fe336fca.svg#icon-close"></use>
+      </svg>
+    </button>
+    <div class="modal-main-item">
+      <h2 class="modal-name">
+        Thanks for subscribing for
+        <span class="modal-text-new">new</span> products
+      </h2>
+      <p class="modal-text">
+        We promise you organic and high-quality products that will meet your
+        expectations. Please stay with us and we promise you many pleasant
+        surprises.
+      </p>
+    </div>
+    <div>
+      <img
+        src="/js_95_WAYLIIKE/assets/products-d9bc53dd.png"
+        alt="products"
+        class="products-modal-card"
+      />
+    </div>
+  </div>
+</div>
+<div class="container">
+  <button type="button" class="bob" style="display: none">
+    open modal subscription
+  </button>
+</div>
+
+    <!-- MODAL ORDER by Анастасія Халупська -->
+    <div class="backdrop-success is-hidden data-modal" data-order>
+  <div class="modal-success">
+    <button class="close-modal-success" data-order-close>
+      <svg class="close-svg-success" width="22" height="22">
+        <use href="/js_95_WAYLIIKE/assets/sprite-fe336fca.svg#icon-close"></use>
+      </svg>
+    </button>
+    <img
+      class="modal-success_img"
+      src="/js_95_WAYLIIKE/assets/background-vege-06d052a5.png"
+      alt="tomato"
+      width="140"
+      height="140"
+    />
+    <h2 class="modal-success_header">Order success</h2>
+    <p class="modal-success_message">
+      Thank you for shopping at Food Boutique. Your order has been received and
+      is now being freshly prepared just for you! Get ready to indulge in
+      nourishing goodness, delivered right to your doorstep. We're thrilled to
+      be part of your journey to better health and happiness.
+    </p>
+  </div>
+</div>
+<button type="button" class="bob" style="display: none">
+  open modal subscription
+</button>
+<div class="container" style="display: none">
+  <button class="modal-error-open">modal error subscription</button>
+</div>
+
+
+    
+  </body>
+</html>
